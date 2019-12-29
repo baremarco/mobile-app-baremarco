@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--CSS PROPIO-->
+   <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+   <title>NYSL_Mobile_App_index</title>
+   <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Firebase Database Quickstart">
+  <meta name="theme-color" content="#303F9F">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Firebase Database Quickstart">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+  <!-- Tile icon for Win8 -->
+  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="msapplication-navbutton-color" content="#303F9F">
+
+</head>
+<body>
+   <div id="index-sep">
+      <div class="container-fluid" >
+         <div class="row"><!--ROW1-->
+            <div class="col"><!--COL1-->
+               <div class="text-right"><!--TEXT-RIGHT-->
+                  <img class="img-logo text-right" src="./images/nysl_logo.png"  alt="nysl logo">
+               </div><!--FIN TEXT-RIGHT-->
+               <div class="accordion" id="accordionExample">
+                  <div class=" text-white text-center">
+                     <div class="card-header mb-5" id="headingOne">
+                        <h4 class="mb-0">
+                           <div class="row">
+                              <div class="col-12 col-sm-3">
+                                 <a role="button" class="btn btn-success btn-lg fondo-boton">Prev</a>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                 <p class="color-mes mx-auto" style="width: 3.5em;">September</p>
+                              </div>
+                              
+                              <div class="col-12 col-sm-3">
+                                 <a role="button" class="btn btn-success btn-lg fondo-boton" id="btn-sep-next">Next</a>
+                              </div>
+                           </div>
+                           <p>* All games take place on Saturday</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="card-header mb-3 text-white text-center" id="headingTwo">
+                     <h2 class="mb-0 ">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btnTwo" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           <p class="fecha-izq">9/01</p>
+                           <p class="juego-cen">U1 and U4 </p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse portrait" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                     <div class="card-body ">
+                        <p class="letras-smenu">Location: AJ Katzenmaier</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6540604261627!2d-87.63123908505526!3d41.900296372004725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200223644!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        
+                        <p class="letras-smenu">Times: 9:30 a.m.</p>
+                     </div>
+                  </div>
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq">9/01</p>
+                           <p class="juego-cen">U3 and U2</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: Greenbay</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745426!2d-87.64002798505479!3d41.91380627115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200291171!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        
+                        <p class="letras-smenu">Times: 1:00 p.m.</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn4" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq"> 9/08</p>
+                           <p class="juego-cen">U5 and U6</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapse4" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: Howard A Yeager</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846845!2d-87.66511458505448!3d41.92326857056615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200338600!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        
+                        <p class="letras-smenu">Times: 9:30 a.m</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn5" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq"> 9/08</p>
+                           <p class="juego-cen"> U6 and U1</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapse5" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: Marjorie P Hart</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2917289530833!2d-87.64808628505426!3d41.929582270170805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200433291!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        
+                        <p class="letras-smenu">Times: 1:00 p.m.</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+               </div> <!--FIN #accordionExample-->
+               
+               <h2 class="mb-0 text-center">
+                  <a  id = "btn-sep-contact" class="btn btn-success active fondo-boton" role="button" aria-pressed="true">Contacts and Chat</a>
+               </h2>
+            </div><!--FIN COL1-->
+            
+            <div class="col landscape my-auto"><!--INICIO COL2-->
+               <div class="mt-4" id="map2">
+                  <p class="letras-smenu">Location: AJ Katzenmaier</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6540604261627!2d-87.63123908505526!3d41.900296372004725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200223644!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               <div class="mt-4" id="map3">
+                  <p class="letras-smenu">Location: Greenbay</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745426!2d-87.64002798505479!3d41.91380627115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200291171!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               
+               <div class="mt-4" id="map4">
+                  <p class="letras-smenu">Location: Howard A Yeager</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846845!2d-87.66511458505448!3d41.92326857056615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200338600!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               
+               <div class="mt-4" id="map5">
+                  <p class="letras-smenu">Location: Marjorie P Hart</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2917289530833!2d-87.64808628505426!3d41.929582270170805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200433291!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+                  
+               </div>
+            </div> <!--FIN COL2-->
+            
+         </div><!--FIN ROW1-->
+      </div><!--FIN .CONTAINER-->
+   </div>
+   
+   <div id="index-oct">
+      <div class="container-fluid" >
+         <div class="row"><!--ROW1-->
+            <div class="col"><!--COL1-->
+               <div class="text-right"><!--TEXT-RIGHT-->
+                  <img class="img-logo text-right" src="./images/nysl_logo.png"  alt="nysl logo">
+               </div><!--FIN TEXT-RIGHT-->
+               <div class="accordion" id="accordionExample">
+                  <div class=" text-white text-center">
+                     <div class="card-header mb-5" id="headingOne">
+                        <h4 class="mb-0">
+                           <div class="row">
+                              <div class="col-12 col-sm-3">
+                                 <a role="button" class="btn btn-success btn-lg fondo-boton" id="btn-oct-prev">Prev</a>
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                 <p class="color-mes mx-auto" style="width: 3.5em;">October</p>
+                              </div>
+                              <div class="col-12 col-sm-3">
+                                 <button type="button" class="btn btn-success btn-lg fondo-boton">Next</button>
+                                 
+                              </div>
+                              <p>* All games take place on Saturday</p>
+                           </div>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="card-header mb-3 text-white text-center" id="headingTwo">
+                     <h2 class="mb-0 ">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn22" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           <p class="fecha-izq">10/06</p>
+                           <p class="juego-cen">U2 and U5</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse portrait" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                     <div class="card-body ">
+                        <p class="letras-smenu">Location: Marjorie P Hart</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2917289530833!2d-87.64808628505426!3d41.929582270170805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200433291!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        <p class="letras-smenu">Times: 9:30 a.m.</p>
+                     </div>
+                  </div>
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn33" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq">10/06</p>
+                           <p class="juego-cen">U1 and U6</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: South</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7477648265644!2d-87.65355538505459!3d41.91978077078475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200604476!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>
+                        <p class="letras-smenu">Times: 1:00 p.m.</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn44" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq">10/08</p>
+                           <p class="juego-cen">U3 and U4</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapse4" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: Howard A Yeager</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846845!2d-87.66511458505448!3d41.92326857056615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200338600!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>                        
+                        <p class="letras-smenu">Times: 9:30 a.m</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree"><!--INICIO BOTON + DESPLEGABLE-->
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" id="btn55" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+                           <p class="fecha-izq">10/13</p>
+                           <p class="juego-cen"> U5 and U1</p>
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapse5" class="collapse portrait" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu">Location: Greenbay</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745426!2d-87.64002798505479!3d41.91380627115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200291171!5m2!1ses!2sar" allowfullscreen></iframe>
+                        </div>                        
+                        <p class="letras-smenu">Times: 9:30 a.m</p>
+                     </div>
+                  </div><!--FIN BOTON + DESPLEGABLE-->
+               </div> <!--FIN #accordionExample-->
+               <h2 class="mb-0 text-center">
+                  <a class="btn btn-success active fondo-boton" id="btn-oct-contact" role="button" aria-pressed="true">Contacts and Chat</a>
+               </h2>
+            </div><!--FIN COL1-->
+            
+            <div class="col landscape my-auto"><!--INICIO COL2-->
+               <div class="mt-4" id="map22">
+                  <p class="letras-smenu">Location: AJ Katzenmaier</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.6540604261627!2d-87.63123908505526!3d41.900296372004725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200223644!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               <div class="mt-4" id="map33">
+                  <p class="letras-smenu">Location: Greenbay</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745426!2d-87.64002798505479!3d41.91380627115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200291171!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               
+               <div class="mt-4" id="map44">
+                  <p class="letras-smenu">Location: Howard A Yeager</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846845!2d-87.66511458505448!3d41.92326857056615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200338600!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+               </div>
+               
+               <div class="mt-4" id="map55">
+                  <p class="letras-smenu">Location: Marjorie P Hart</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2917289530833!2d-87.64808628505426!3d41.929582270170805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1557200433291!5m2!1ses!2sar" allowfullscreen></iframe>
+                  </div>
+                  
+               </div>
+            </div> <!--FIN COL2-->
+            
+         </div><!--FIN ROW1-->
+      </div><!--FIN .CONTAINER-->
+   </div>
+   
+   <div id="contacts">
+      <div class="container" >
+         <div class="row"><!--ROW1-->
+            <div class="col"><!--COL1-->
+               <div class="text-right"><!--TEXT-RIGHT-->
+                  <img class="img-logo text-right" src="./images/nysl_logo.png"  alt="nysl logo">
+               </div><!--FIN TEXT-RIGHT-->
+               <div class="accordion" id="accordionExample">
+                  <div class=" text-white text-center">
+                     <div class="card-header mb-5" id="headingOne">
+                        <h4 class="mb-0">
+                           <div class="row">
+                              <div class="col-3">
+                                 <a role="button" class="btn btn-success btn-lg fondo-boton" id="btn-contact-prev">Prev</a>
+                              </div>
+                              <div class="col-6">
+                                 <p class="text-center color-mes">Contacts and Chat</p>
+                              </div>
+                              <div class="col-3">
+                                 <a role="button" class="btn btn-success btn-lg fondo-boton" href="./indexChat.html">Chat</a>
+                              </div>
+                           </div>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="card-header mb-3 text-white text-center" id="headingTwo">
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Tom Denton
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                     <div class="card-body">
+                        <p class="letras-smenu"> Phone Number: ...</p>
+                        <p class="letras-smenu"> Email: nysl@chisoccer.org</p>
+                     </div>
+                  </div>
+                  <div class=" card-header mb-3 text-white text-center" id="headingThree">
+                     <h2 class="mb-0 text-center">
+                        <button class=" btn btn-success btn-lg btn-block fondo-boton" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           Michael Randall, League Coordinator
+                        </button>
+                     </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                     <div class="card-body  ">
+                        <p class="letras-smenu"> Phone Number: <a href="tel:+5491154006648">630-690-8132</a></p>
+                        <p class="letras-smenu"> Whatsapp: <a href="https://api.whatsapp.com/send?phone=5491154006648">630-690-8132</a></p> 
+                        <p class="letras-smenu"> Email: <a href="mailto:michael.randall@chisoccer.org">michael.randall@chisoccer.org</a></p>
+                     </div>
+                  </div>
+               </div> <!--FIN #accordionExample-->
+            </div><!--FIN COL1-->
+         </div><!--FIN ROW1-->
+      </div><!--FIN .CONTAINER-->
+   </div>
+   
+   <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+   
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+      
+      <script>
+         // Your web app's Firebase configuration
+         var firebaseConfig = {
+            apiKey: "AIzaSyAbWJkNHLEntoZo5rpqImi8SCju-0ybz1M",
+            authDomain: "mobile-app-baremarco.firebaseapp.com",
+            databaseURL: "https://mobile-app-baremarco.firebaseio.com",
+            projectId: "mobile-app-baremarco",
+            storageBucket: "mobile-app-baremarco.appspot.com",
+            messagingSenderId: "455849948229",
+            appId: "1:455849948229:web:39b43b631d1f265cefdf2c"
+         };
+         // Initialize Firebase
+         firebase.initializeApp(firebaseConfig);
+      </script>
+      <!--Parte donde se cargaran los scripts-->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+      <script src="./script/main.js"></script>
+      <!-- Part of the database and firebase code was from this repo. https://github.com/firebase/quickstart-js/blob/master/database/index.html 
+      Thanks for all you contributions!! -->
+   </body>
+   </html>

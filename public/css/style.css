@@ -1,0 +1,71 @@
+
+
+
+/*CREACION DE ESTILOS PARA DETERMINADAS CLASES*/
+.letras-smenu{
+    
+    color: rgb(255, 255, 255);
+    background: linear-gradient( to bottom, rgb(255, 21, 21), rgb(0, 0, 0));
+    font-size: 100%;
+}
+.img-logo{
+    height: 30%;
+    width: 30%;
+   
+}
+.color-mes{
+    /*background: linear-gradient( to bottom, rgb(3, 219, 21), rgb(2, 2, 0));*/
+    color: whitesmoke;
+    text-shadow: 3px 2px rgb(255, 21, 21);
+    font-size: 100%;
+}
+.fondo-boton{
+    background: linear-gradient( to bottom, rgb(255, 21, 21), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+body {
+    background-attachment: fixed; 
+    background-image: url("../images/depositphotos_58467247-stock-photo-soccer-field-and-the-bright.jpg"); 
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+}
+.fecha-izq{
+    float: left;
+    font-size: 70%
+}
+.juego-cen{
+    float: center;
+}
+
+.landscape{
+    display: none;
+}
+.portrait{
+    display: block;
+}
+.index-oct{
+    display: none;
+}
+.contacts{
+    display:none;
+}
+/* MEDIA QUERY */
+@media screen and (orientation: landscape) {
+    .landscape{
+        display: block;
+    }
+    .portrait{
+        display: none;
+    }
+    .index-oct{
+        display: none;
+    }
+    .contacts{
+        display:none;
+    }
+}
