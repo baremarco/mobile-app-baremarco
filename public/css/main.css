@@ -90,9 +90,14 @@ h3 {
    position: relative;
    background-color: darkgreen;
 }
+#sign-out-button {
+   right: 0;
+   position: absolute;
+   bottom: 0;
+}
 @media screen and (max-width: 840px) {
    .header .mdl-layout__header-row.titlebar {
-       height: 56px;
+       height: 20 vh;
    }
    .titlebar h3 {
        font-size: 24px;
@@ -109,6 +114,9 @@ h3 {
    .mdl-card {
        font-size: 14px;
    }
+   .header .mdl-layout__header-row.titlebar {
+      height: 20 vh;
+  }
 }
 
 /* Signed-in user */
@@ -134,12 +142,15 @@ h3 {
    text-align: left;
 }
 #sign-in-button {
-   margin-left: 10px;
+   /* margin-left: 10px; */
    color: inherit;
 }
 #sign-out-button {
    margin: 10px;
    color: inherit;
+}
+div .mdl-button {
+   color: #fff;
 }
 .mdl-button .material-icons {
    margin-top: -2px;
@@ -166,18 +177,26 @@ h3 {
    .header .mdl-tab {
        width: auto;
    }
+   .header .mdl-layout__header-row.titlebar {
+      height: 20 vh;
+  }
 }
 .header .tab {
    padding: 0;
    max-width: none;
 }
+
 #add {
-   position: absolute;
-   right: 20px;
-   top: 18px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
    z-index: 998;
+   top: auto;
 }
 @media screen and (max-width: 840px) {
+   .header .mdl-layout__header-row.titlebar {
+      height: 20 vh;
+  }
    #add {
        position: fixed;
        bottom: 10px;
@@ -189,8 +208,13 @@ h3 {
 #sign-out-button {
    right: 0;
    position: absolute;
+   bottom: 0;
 }
-
+#volver-button{
+   right: 10px;
+   top: 0;
+   position: absolute;
+}
 /* Drawer */
 
 .mdl-layout__drawer-button {
@@ -213,6 +237,9 @@ h3 {
    top: 7px;
 }
 @media screen and (max-width: 479px) {
+   .header .mdl-layout__header-row.titlebar {
+      height: 20 vh;
+  }
    .mdl-layout__drawer-button {
        display: block;
        top: 3px;
@@ -235,6 +262,9 @@ h3 {
    max-height: 400px;
 }
 @media screen and (max-width: 479px) {
+   .header .mdl-layout__header-row.titlebar {
+      height: 20 vh;
+  }
    .mdl-snackbar__action {
        margin-right: 60px;
    }
